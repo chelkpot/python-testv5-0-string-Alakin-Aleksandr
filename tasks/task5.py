@@ -12,9 +12,7 @@ def solve():
     outut1 = "Код символа " + str(sim1) + " Равен " + str(code1)
     output2 = "Код символа " + str(sim2) + " Равен " + str(code2)
     output3 = "Код символа " + str(sim3) + " Равен " + str(code3)
-    print(outut1)
-    print(output2)
-    print(output3)
+    print(outut1 + "\n" + output2 + "\n" + output3)
 # Код ниже не трогать! он нужен для тестов
 if __name__ == "__main__":
     solve()
