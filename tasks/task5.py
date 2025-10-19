@@ -9,10 +9,7 @@ def solve():
     code1 = ord(a)
     code2 = ord(b)
     code3 = ord(c)
-    outut1 = "Код символа " + str(sim1) + " Равен " + str(code1)
-    output2 = "Код символа " + str(sim2) + " Равен " + str(code2)
-    output3 = "Код символа " + str(sim3) + " Равен " + str(code3)
-    print(outut1 + "\n" + output2 + "\n" + output3)
+    print("Код символа " + str(sim1) + " Равен " + str(code1) + "\n" + "Код символа " + str(sim2) + " Равен " + str(code2) + "\n" + "Код символа " + str(sim3) + " Равен " + str(code3))
 # Код ниже не трогать! он нужен для тестов
 if __name__ == "__main__":
     solve()
