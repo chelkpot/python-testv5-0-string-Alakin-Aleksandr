@@ -2,7 +2,8 @@
 
 def solve():
 # Ниже пишите решение задачи
-    
+    n = str(input())
+    print(n*3)
     
 
 
